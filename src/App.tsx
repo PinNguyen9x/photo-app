@@ -16,7 +16,7 @@ const App: React.FC = () => {
           <Routes>
             <Route path="/" element={<Navigate to="/photos" />} />
             <Route path="/photos/*" element={<Photo />} />
-            <Route element={<NotFound />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
       </Suspense>
