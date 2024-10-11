@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import { Route, Routes, useLocation } from "react-router-dom";
-import Notfound from "../../components/Notfound";
+import NotFound from "../../components/NotFound";
 import MainPage from "./pages/MainPage";
 const AddEditPage = React.lazy(() => import("./pages/AddEdit"));
 
@@ -16,7 +16,7 @@ const Photo: React.FC<PhotoProps> = ({ ...props }: PhotoProps) => {
         <Route path="/" element={<MainPage />} />
         <Route path="add" element={<AddEditPage />} />
         <Route path=":photoId" element={<AddEditPage />} />
-        <Route path="*" element={<Notfound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Fragment>
   );
