@@ -5,7 +5,7 @@ import { RootState } from "../../../../app/store";
 import Banner from "../../../../components/Banner";
 import { randomNumber } from "../../../../utils/common";
 import PhotoForm from "../../components/PhotoForm";
-import { addPhoto, updatePhoto } from "../../PhotoSlice";
+import { addPhoto, updatePhoto } from "../../photoSlice";
 import "./styles.scss";
 
 interface AddEditPageProps {}

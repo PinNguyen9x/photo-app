@@ -107,6 +107,6 @@ const photo = createSlice({
   },
 });
 
-const { reducer, actions } = photo;
+const { reducer: photoReducer, actions } = photo;
 export const { addPhoto, removePhoto, updatePhoto } = actions;
-export default reducer;
+export default photoReducer;
