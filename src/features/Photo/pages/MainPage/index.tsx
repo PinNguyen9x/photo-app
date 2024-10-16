@@ -6,7 +6,7 @@ import { RootState } from "../../../../app/store";
 import Banner from "../../../../components/Banner";
 import Images from "../../../../constants/images";
 import PhotoList from "../../components/PhotoList";
-import { removePhoto } from "../../PhotoSlice";
+import { removePhoto } from "../../photoSlice";
 
 export interface MainPageProps {}
 
