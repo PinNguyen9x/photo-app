@@ -7,18 +7,13 @@ const AddEditPage = React.lazy(() => import("./pages/AddEdit"));
 interface PhotoProps {}
 
 const Photo: React.FC<PhotoProps> = ({ ...props }: PhotoProps) => {
-  const location = useLocation();
-
   return (
-    <Fragment>
-      <p>{location.pathname}</p>
-      <Routes>
-        <Route path="/" element={<MainPage />} />
-        <Route path="add" element={<AddEditPage />} />
-        <Route path=":photoId" element={<AddEditPage />} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
-    </Fragment>
+    <Routes>
+      <Route path="/" element={<MainPage />} />
+      <Route path="add" element={<AddEditPage />} />
+      <Route path=":photoId" element={<AddEditPage />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
   );
 };
 
