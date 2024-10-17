@@ -16,7 +16,6 @@
       "@constants/*": ["constants/*"],
       "@assets/*": ["assets/*"],
       "@app/*": ["app/*"],
-      "@custom-fields/*": ["custom-fields/*"],
       "@custom-fields": ["custom-fields/index.ts"]
     }
   },

@@ -12,7 +12,6 @@ export default defineConfig({
       "@constants": "/src/constants",
       "@assets": "/src/assets",
       "@app": "/src/app",
-      "@custom-fields/*": "/src/custom-fields/*",
       "@custom-fields": "/src/custom-fields/index.ts",
     },
   },
