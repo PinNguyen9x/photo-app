@@ -1,15 +1,9 @@
-// import { PHOTO_CATEGORY_OPTIONS } from "constants/global";
-// import InputField from "custom-fields/InputField";
-// import RandomPhotoField from "custom-fields/RandomPhotoField";
-// import SelectField from "custom-fields/SelectField";
+import { PHOTO_CATEGORY_OPTIONS } from "@constants/global";
+import { InputField, RandomPhotoField, SelectField } from "@custom-fields";
 import { FastField, Form, Formik } from "formik";
 import React from "react";
 import { Button, FormGroup, Spinner } from "reactstrap";
 import * as Yup from "yup";
-import { PHOTO_CATEGORY_OPTIONS } from "../../../../constants/global";
-import InputField from "../../../../custom-fields/InputField";
-import RandomPhotoField from "../../../../custom-fields/RandomPhotoField";
-import SelectField from "../../../../custom-fields/SelectField";
 
 interface AddEditPageProps {
   initialValues: any;
@@ -75,5 +69,4 @@ const PhotoForm: React.FC<AddEditPageProps> = ({
     </Formik>
   );
 };
-
 export default PhotoForm;

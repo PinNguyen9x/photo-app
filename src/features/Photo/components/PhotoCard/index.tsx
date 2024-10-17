@@ -50,5 +50,4 @@ const PhotoCard: React.FC<PhotoCardProps> = ({
     </div>
   );
 };
-
 export default PhotoCard;

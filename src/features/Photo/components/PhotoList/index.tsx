@@ -1,6 +1,7 @@
 import React from "react";
 import { Col, Row } from "reactstrap";
 import PhotoCard from "../PhotoCard";
+
 interface PhotoListProps {
   photoList: any;
   onPhotoEditClick: any;
@@ -25,5 +26,4 @@ const PhotoList: React.FC<PhotoListProps> = ({
     </Row>
   );
 };
-
 export default PhotoList;

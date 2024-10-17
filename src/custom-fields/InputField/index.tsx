@@ -11,7 +11,7 @@ interface InputFieldProps {
   disabled?: boolean;
 }
 
-const InputField: React.FC<InputFieldProps> = ({
+export const InputField: React.FC<InputFieldProps> = ({
   field,
   form,
   type = "text",
@@ -40,4 +40,3 @@ const InputField: React.FC<InputFieldProps> = ({
     </FormGroup>
   );
 };
-export default InputField;

@@ -1,6 +1,6 @@
-import React, { Fragment } from "react";
-import { Route, Routes, useLocation } from "react-router-dom";
-import NotFound from "../../components/NotFound";
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import NotFound from "@components/NotFound";
 import MainPage from "./pages/MainPage";
 const AddEditPage = React.lazy(() => import("./pages/AddEdit"));
 

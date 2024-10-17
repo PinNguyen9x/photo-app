@@ -6,7 +6,15 @@ export default defineConfig({
   plugins: [react()],
   resolve: {
     alias: {
-      src: "/src",
+      "@components": "/src/components",
+      "@features": "/src/features",
+      "@utils": "/src/utils",
+      "@constants": "/src/constants/index.ts",
+      "@constants/*": "/src/constants/*",
+      "@assets": "/src/assets",
+      "@app": "/src/app",
+      "@custom-fields/*": "/src/custom-fields/*",
+      "@custom-fields": "/src/custom-fields/index.ts",
     },
   },
 });

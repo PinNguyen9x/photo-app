@@ -10,7 +10,7 @@ interface RandomPhotoFieldProps {
   label?: string;
 }
 
-const RandomPhotoField: React.FC<RandomPhotoFieldProps> = ({
+export const RandomPhotoField: React.FC<RandomPhotoFieldProps> = ({
   field,
   form,
   label = "",
@@ -39,5 +39,3 @@ const RandomPhotoField: React.FC<RandomPhotoFieldProps> = ({
     </FormGroup>
   );
 };
-
-export default RandomPhotoField;

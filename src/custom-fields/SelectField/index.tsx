@@ -12,7 +12,7 @@ interface SelectFieldProps {
   options?: any;
 }
 
-const SelectField: React.FC<SelectFieldProps> = ({
+export const SelectField: React.FC<SelectFieldProps> = ({
   field,
   form,
   options = [],
@@ -59,5 +59,3 @@ const SelectField: React.FC<SelectFieldProps> = ({
     </FormGroup>
   );
 };
-
-export default SelectField;

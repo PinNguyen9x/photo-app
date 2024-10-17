@@ -1,11 +1,11 @@
+import { RootState } from "@app/store";
+import Banner from "@components/Banner";
+import PhotoForm from "@features/Photo/components/PhotoForm";
+import { addPhoto, updatePhoto } from "@features/Photo/photoSlice";
+import { randomNumber } from "@utils/common";
 import React from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate, useParams } from "react-router-dom";
-import { RootState } from "../../../../app/store";
-import Banner from "../../../../components/Banner";
-import { randomNumber } from "../../../../utils/common";
-import PhotoForm from "../../components/PhotoForm";
-import { addPhoto, updatePhoto } from "../../photoSlice";
 import "./styles.scss";
 
 interface AddEditPageProps {}

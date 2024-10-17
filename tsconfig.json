@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "module": "esnext",
+    "target": "es6",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@features/*": ["features/*"],
+      "@utils/*": ["utils/*"],
+      "@constants/": ["constants/index.ts"],
+      "@constants/*": ["constants/*"],
+      "@assets/*": ["assets/*"],
+      "@app/*": ["app/*"],
+      "@custom-fields/*": ["custom-fields/*"],
+      "@custom-fields": ["custom-fields/index.ts"]
+    }
+  },
+  "include": ["src/**/*"]
+}
