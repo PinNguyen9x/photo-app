@@ -1,11 +1,11 @@
-import { useDispatch, useSelector } from "react-redux";
-import { Link, useNavigate } from "react-router-dom";
-import { Container } from "reactstrap";
 import { RootState } from "@app/store";
 import Banner from "@components/Banner";
 import Images from "@constants/images";
-import { removePhoto } from "@features/Photo/photoSlice";
 import PhotoList from "@features/Photo/components/PhotoList";
+import { removePhoto } from "@features/Photo/photoSlice";
+import { useDispatch, useSelector } from "react-redux";
+import { Link, useNavigate } from "react-router-dom";
+import { Container } from "reactstrap";
 
 export interface MainPageProps {}
 

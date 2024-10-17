@@ -13,7 +13,6 @@
       "@components/*": ["components/*"],
       "@features/*": ["features/*"],
       "@utils/*": ["utils/*"],
-      "@constants/": ["constants/index.ts"],
       "@constants/*": ["constants/*"],
       "@assets/*": ["assets/*"],
       "@app/*": ["app/*"],
