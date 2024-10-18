@@ -16,9 +16,9 @@ const Header: React.FC<HeaderProps> = ({ ...props }: HeaderProps) => {
               className={({ isActive }) =>
                 isActive ? "header__link header__link--active" : "header__link"
               }
-              to="/photos"
+              to="/sign-in"
             >
-              Redux Project
+              Sign In
             </NavLink>
           </Col>
         </Row>

@@ -6,6 +6,7 @@
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
     "moduleResolution": "node",
+    "types": ["node"],
     "allowImportingTsExtensions": true,
     "noEmit": true,
     "baseUrl": "./src",
@@ -16,7 +17,9 @@
       "@constants/*": ["constants/*"],
       "@assets/*": ["assets/*"],
       "@app/*": ["app/*"],
-      "@custom-fields": ["custom-fields/index.ts"]
+      "@custom-fields": ["custom-fields/index.ts"],
+      "@api/*": ["api/*"],
+      "@firebaseConfig": ["firebaseConfig.ts"]
     }
   },
   "include": ["src/**/*"]

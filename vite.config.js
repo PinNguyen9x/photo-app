@@ -13,6 +13,7 @@ export default defineConfig({
       "@assets": "/src/assets",
       "@app": "/src/app",
       "@custom-fields": "/src/custom-fields/index.ts",
+      "@firebaseConfig": "/src/firebaseConfig.ts",
     },
   },
 });
